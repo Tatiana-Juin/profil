@@ -46,7 +46,7 @@ h1{
 }
 
 /* DIV REGROUPANT TOUS LES BOUTONS  */
-.reseaux-profil{
+.reseaux-profil, .online-profil{
     /* border:1px solid red; */
     margin-top: 15px;
     /* width: 100vw; */
@@ -55,7 +55,7 @@ h1{
     align-items: center;
 }
 /* STYLE POUR LE TITRE DE LA SECTION RESEAUX SOCIAUX ET  */
-.reseaux-profil h2{
+.reseaux-profil h2, .online-profil h2{
     text-align: center;
     font-size: 25px;
     color: #800080;
