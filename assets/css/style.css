@@ -1,0 +1,80 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*********** MOBILE FIRST *********/
+
+/* MAIN */
+main{
+    /* border:1px solid blue;  */
+    width:100vw;
+    /* height:100vh; */
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+/* DIV REGROUPANT TOUTES LES INFORMATIONS DU HAUT DU PROFIL */
+.header-profil{
+    /* border:1px solid purple; */
+    /* width:99vw; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+}
+
+
+/* STYLE DE LA DIV POUR L'IMAGE  */
+.picture-profil{
+    /* border:1px solid red; */
+    margin-bottom:15px;
+}
+
+/* STYLE POUR LE NOM DU  DU PROFIL  */
+h1{
+    font-size: 27px;
+    text-align: center;  
+}
+
+/* STYLE POUR LE TITRE DU PROFILE  */
+.description-profil p{
+    margin-top:7px;
+    font-size:17px;
+    font-style: italic;
+}
+
+/* DIV REGROUPANT TOUS LES BOUTONS  */
+.reseaux-profil{
+    /* border:1px solid red; */
+    margin-top: 15px;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* STYLE POUR LE TITRE DE LA SECTION RESEAUX SOCIAUX ET  */
+.reseaux-profil h2{
+    text-align: center;
+    font-size: 25px;
+    color: #800080;
+    font-weight: bolder;
+    margin-bottom:30px;
+    
+}
+
+/* POUR LE BTN DES RESEAUX  */
+.btn-reseaux{
+    /* border:1px solid blue; */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px;
+    width: 60vw;
+    text-align: center;
+    margin-bottom:22px;
+    color:black;
+    background-color: #ffeeee;
+    border-radius: 30px;
+}
+
