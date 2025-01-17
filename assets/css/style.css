@@ -78,3 +78,15 @@ h1{
     border-radius: 30px;
 }
 
+/*LIEN POUR LE MORPIONS */
+.link-project{
+    cursor:pointer;
+}
+
+/* POUR L'IMAGE  */
+.picture-project{
+    width:250px;
+    height: 250px;
+}
+
+
