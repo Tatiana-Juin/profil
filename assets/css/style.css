@@ -8,12 +8,8 @@
 
 /* MAIN */
 main{
-    /* border:1px solid blue;  */
-    width:100vw;
-    /* height:100vh; */
-    /* display: flex;
-    flex-direction: column; */
-    
+   
+    width:100vw;  
 }
 /* DIV REGROUPANT TOUTES LES INFORMATIONS DU HAUT DU PROFIL */
 .header-profil{
@@ -127,6 +123,28 @@ h1{
         /* border:1px solid blue; */
         display:flex;
         width:70vw;
+        flex-wrap: wrap;
+        
+    }
+  }
+
+  /* ***** ORDINATEUR GRAND ECRAN  ****** */
+
+  @media screen and (min-width:1489px){
+   
+    .reseaux-profil h2, .online-profil h2{
+        font-size:30px;
+    }
+    /* BOUTON POUR LES RESEAUX SOCIAUX  */
+    .btn-reseaux{
+        width: 30vw;
+    }
+
+    /* POUR LES PROJETS EN LIGNE  */
+    .online-projects{
+        /* border:1px solid blue; */
+        display:flex;
+        width:60vw;
         flex-wrap: wrap;
         
     }
