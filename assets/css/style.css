@@ -108,7 +108,7 @@ h1{
   }
 
   /* ************ TABLETTE PAYSAGE ****** */
-  @media screen and (min-width:1025px) and (max-width:1366px){
+  @media screen and (min-width:1025px) and (max-width:1488px){
  
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
     .btn-reseaux{
@@ -119,7 +119,7 @@ h1{
     .online-projects{
         /* border:1px solid blue; */
         display:flex;
-        width:80vw;
+        width:70vw;
         flex-wrap: wrap;
         
     }
