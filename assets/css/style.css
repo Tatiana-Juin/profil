@@ -13,8 +13,6 @@ main{
 }
 /* DIV REGROUPANT TOUTES LES INFORMATIONS DU HAUT DU PROFIL */
 .header-profil{
-    /* border:1px solid purple; */
-    /* width:99vw; */
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -43,9 +41,7 @@ h1{
 
 /* DIV REGROUPANT TOUS LES BOUTONS  */
 .reseaux-profil, .online-profil{
-    /* border:1px solid red; */
     margin-top: 15px;
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +58,7 @@ h1{
 
 /* POUR LE BTN DES RESEAUX  */
 .btn-reseaux{
-    /* border:1px solid blue; */
+    
     text-decoration: none;
     font-size: 16px;
     padding: 15px;
@@ -99,7 +95,7 @@ h1{
     }
 
     .online-projects{
-        /* border:1px solid blue; */
+        
         display:flex;
         /* width:90vw; */
         flex-wrap: wrap;
@@ -120,7 +116,7 @@ h1{
 
     /* POUR LES PROJETS EN LIGNE  */
     .online-projects{
-        /* border:1px solid blue; */
+       
         display:flex;
         width:70vw;
         flex-wrap: wrap;
@@ -142,7 +138,7 @@ h1{
 
     /* POUR LES PROJETS EN LIGNE  */
     .online-projects{
-        /* border:1px solid blue; */
+        
         display:flex;
         width:60vw;
         flex-wrap: wrap;
