@@ -93,6 +93,10 @@ h1{
 
   @media screen and (min-width:768px) and (max-width:1024px){
 
+    .reseaux-profil h2, .online-profil h2{
+        font-size:27px;
+    }
+
     /* POUR LES  BOUTON DES RESEAUX SOCIAUX   */
     .btn-reseaux{
         width: 40vw;
@@ -109,7 +113,10 @@ h1{
 
   /* ************ TABLETTE PAYSAGE ****** */
   @media screen and (min-width:1025px) and (max-width:1488px){
- 
+    
+    .reseaux-profil h2, .online-profil h2{
+        font-size:30px;
+    }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
     .btn-reseaux{
         width: 30vw;
