@@ -40,14 +40,14 @@ h1{
 }
 
 /* DIV REGROUPANT TOUS LES BOUTONS  */
-.reseaux-profil, .online-profil{
+.reseaux-profil, .online-projects{
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 /* STYLE POUR LE TITRE DE LA SECTION RESEAUX SOCIAUX ET  */
-.reseaux-profil h2, .online-profil h2{
+.reseaux-profil h2, .online-projects h2{
     text-align: center;
     font-size: 25px;
     color: #800080;
@@ -57,7 +57,7 @@ h1{
 }
 
 /* POUR LE BTN DES RESEAUX  */
-.btn-reseaux{
+.btn-reseaux,.btn-project{
     
     text-decoration: none;
     font-size: 16px;
@@ -70,79 +70,53 @@ h1{
     border-radius: 30px;
 }
 
-/*LIEN POUR LE MORPIONS */
-.link-project{
-    cursor:pointer;
-}
 
-/* POUR L'IMAGE  */
-.picture-project{
-    width:250px;
-    height: 250px;
-}
+
+
 
   /**************** TABLETTE ************* */
 
   @media screen and (min-width:768px) and (max-width:1024px){
 
-    .reseaux-profil h2, .online-profil h2{
+    .reseaux-profil h2, .online-projects h2{
         font-size:27px;
     }
 
     /* POUR LES  BOUTON DES RESEAUX SOCIAUX   */
-    .btn-reseaux{
+    .btn-reseaux,.btn-project{
         width: 40vw;
     }
 
-    .online-projects{
-        
-        display:flex;
-        /* width:90vw; */
-        flex-wrap: wrap;
-        
-    }
+  
   }
 
   /* ************ TABLETTE PAYSAGE ****** */
   @media screen and (min-width:1025px) and (max-width:1488px){
     
-    .reseaux-profil h2, .online-profil h2{
+    .reseaux-profil h2, .online-projects h2{
         font-size:30px;
     }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
-    .btn-reseaux{
+    .btn-reseaux,.btn-project{
         width: 30vw;
     }
 
-    /* POUR LES PROJETS EN LIGNE  */
-    .online-projects{
-       
-        display:flex;
-        width:70vw;
-        flex-wrap: wrap;
-        
-    }
+  
+    
   }
 
   /* ***** ORDINATEUR GRAND ECRAN  ****** */
 
   @media screen and (min-width:1489px){
    
-    .reseaux-profil h2, .online-profil h2{
+    .reseaux-profil h2, .online-projects h2{
         font-size:30px;
     }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
-    .btn-reseaux{
+    .btn-reseaux,.btn-project{
         width: 30vw;
     }
 
-    /* POUR LES PROJETS EN LIGNE  */
-    .online-projects{
-        
-        display:flex;
-        width:60vw;
-        flex-wrap: wrap;
-        
-    }
+    
   }
 
