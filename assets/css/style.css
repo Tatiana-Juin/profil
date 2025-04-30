@@ -35,7 +35,7 @@ h1{
 .description-profil p{
     margin-top:7px;
     font-size:17px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 /*****************POUR LES PROJETS EN LIGNE ******* */
@@ -61,7 +61,7 @@ h1{
     text-decoration: none;
     font-size: 16px;
     padding: 15px;
-    width: 60vw;
+    width: 80vw;
     text-align: center;
     margin-bottom:22px;
     color:black;
