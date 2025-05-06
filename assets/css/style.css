@@ -28,7 +28,9 @@ main{
 /* STYLE POUR LE NOM DU  DU PROFIL  */
 h1{
     font-size: 27px;
-    text-align: center;  
+    text-align: center; 
+    color: #800080; 
+    
 }
 
 /* STYLE POUR LE TITRE DU PROFILE  */
@@ -50,7 +52,8 @@ h1{
 .online-projects h2{
     text-align: center;
     font-size: 25px;
-    color: #800080;
+    /* color: #800080; */
+    color: #3F4574;
     font-weight: bolder;
     margin-bottom:30px;
     
