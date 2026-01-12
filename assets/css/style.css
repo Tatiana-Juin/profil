@@ -42,16 +42,16 @@ h1{
 
 /*****************POUR LES PROJETS EN LIGNE ******* */
 
-.online-projects{
+.online-projects,.offline-projects{
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.online-projects h2{
+.online-projects h2,.offline-projects h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     /* color: #800080; */
     color: #3F4574;
     font-weight: bolder;
@@ -93,7 +93,7 @@ h1{
 /* **********************TABLETTE ** */
 @media screen and (min-width:768px) and (max-width:1024px){
 
-    .online-projects h2{
+    .online-projects h2, .offline-projects h2{
         font-size:27px;
     }
 
@@ -107,7 +107,7 @@ h1{
  /* ************ TABLETTE PAYSAGE ****** */
  @media screen and (min-width:1025px) and (max-width:1488px){
     
-    .online-projects h2{
+    .online-projects h2,.offline-projects h2{
         font-size:30px;
     }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
@@ -121,7 +121,7 @@ h1{
 
   @media screen and (min-width:1489px){
    
-    .online-projects h2{
+    .online-projects h2, .offline-projects h2{
         font-size:30px;
     }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
