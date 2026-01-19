@@ -1,3 +1,15 @@
+:root{
+    --primary-color: #800080;
+    --secondary-color: #3F4574;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --text-main: #2d3436;
+    --text-muted: #636e72;
+    --btn-hover: #f0e6f0;
+    --transition: all 0.3s ease;
+    --border-color:#f0f0f0;
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,9 +19,13 @@
 /*********** MOBILE FIRST *********/
 
 /* MAIN */
-main{
-   
-    width:100vw;  
+body{
+
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    min-height: 100%;
+    width:100%;  
 }
 
 /* DIV REGROUPANT TOUTES LES INFORMATIONS DU HAUT DU PROFIL */
@@ -21,7 +37,6 @@ main{
 }
 
 .picture-profil{
-    /* border:1px solid red; */
     margin-bottom:15px;
 }
 
@@ -29,33 +44,35 @@ main{
 h1{
     font-size: 27px;
     text-align: center; 
-    color: #800080; 
+     color: var(--primary-color);
     
 }
 
 /* STYLE POUR LE TITRE DU PROFILE  */
 .description-profil p{
-    margin-top:7px;
+    margin-top:20px;
+    font-weight: 400;
     font-size:17px;
+    color: var(--text-muted);
     /* font-style: italic; */
 }
 
 /*****************POUR LES PROJETS EN LIGNE ******* */
 
-.online-projects,.offline-projects{
-    margin-top: 15px;
+.online-projects{
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.online-projects h2,.offline-projects h2{
+.online-projects h2{
     text-align: center;
     font-size: 23px;
-    /* color: #800080; */
-    color: #3F4574;
-    font-weight: bolder;
-    margin-bottom:30px;
+    
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom:20px;
     
 }
 
@@ -64,28 +81,62 @@ h1{
     text-decoration: none;
     font-size: 16px;
     padding: 15px;
+    font-weight:600;
     width: 80vw;
+    padding: 18px 25px;
     text-align: center;
     margin-bottom:22px;
-    color:black;
+    color: var(--text-main);
+   
     background-color: #ffeeee;
+    transition: var(--transition);
     border-radius: 30px;
+    border: 1px solid #ffeeee;
+    
+    box-shadow: 0 10px 15px rgba(128, 0, 128, 0.1);
+}
+
+.btn-project:last-child{
+    margin-bottom:50px;
+}
+
+.btn-project:hover {
+    transform: translateY(-3px);
+    background-color: var(--card-bg);
+    box-shadow: 0 10px 15px rgba(128, 0, 128, 0.1);
+    border-color: var(--primary-color);
 }
 
 
 /* POUR LES RESEAUX SOCIAUX  */
 .reseaux-sociaux{
+    
     display: flex;
-    justify-content: center;
-    margin-top: 20px;  
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    width:70vw;
+    margin:auto;  
+    /* justify-content: center; */
+    
+   
 }
 
-.bi-github,.bi-linkedin,.bi-tiktok,.bi-discord,.bi-twitch,.bi-youtube{
-    margin-right:30px;
+.link-reseaux{
+    margin-top: 20px;
+    border:1px solid var(--text-main);
+    margin-right:40px;
+    padding:10px;
+    width:61px;
+    border-radius:30px;
 }
+
+/* .bi-github,.bi-linkedin,.bi-tiktok,.bi-discord,.bi-twitch,.bi-youtube{
+    
+} */
 
 .bi{
-    font-size:30px;
+    font-size:36px;
     color:black;
     /* cursor: pointer; */
 }
@@ -93,12 +144,16 @@ h1{
 /* **********************TABLETTE ** */
 @media screen and (min-width:768px) and (max-width:1024px){
 
-    .online-projects h2, .offline-projects h2{
+    .online-projects h2{
         font-size:27px;
     }
 
     .btn-project{
         width: 40vw;
+    }
+
+    .reseaux-sociaux{
+        width:40vw;
     }
 
 
@@ -107,12 +162,15 @@ h1{
  /* ************ TABLETTE PAYSAGE ****** */
  @media screen and (min-width:1025px) and (max-width:1488px){
     
-    .online-projects h2,.offline-projects h2{
+    .online-projects h2{
         font-size:30px;
     }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
     .btn-project{
         width: 30vw;
+    }
+    .reseaux-sociaux{
+        width:40vw;
     }
 
 }
@@ -121,12 +179,15 @@ h1{
 
   @media screen and (min-width:1489px){
    
-    .online-projects h2, .offline-projects h2{
+    .online-projects h2{
         font-size:30px;
     }
     /* BOUTON POUR LES RESEAUX SOCIAUX  */
    .btn-project{
         width: 30vw;
+    }
+    .reseaux-sociaux{
+        width:40vw;
     }
 
     
